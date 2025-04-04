@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-// input_size -> number of features (variables) we are testing on
+// input_size -> number of features (variables) we are training on
 // hidden_size -> num neurons in hidden layers
   
 class DefectorPredictor(nn.Module):
